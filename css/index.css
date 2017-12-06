@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+body {
+    position: relative;
+    background: #fff url('space-bg.jpg');
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+header {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.summary {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.preamble {
+    font-size: 1.3em;
+    border-bottom: 4px dotted white;
+}
+
+footer {
+    position: fixed;
+    margin: 0 auto;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    width: 99%;
+    font-size: 0.85em;
+    color: black;
+    background-color: white;
+}
+
+.wrapper {
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapper h3 {
+    text-align: center;
+}
+
+.design-selection {
+    order: 2;
+}
+
+.design-archives {
+    order: 1;
+}
+
+.zen-resources {
+    order: 3;
+}
+
+.main {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 4px dotted white;
+}
